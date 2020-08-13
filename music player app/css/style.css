@@ -1,0 +1,74 @@
+body {
+  background-color: #6C627F;
+  margin: 0 auto;
+}
+
+img {
+  width: 50%;
+}
+
+.player {
+  background: radial-gradient(#3B3546, #625973) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px lightslategray solid;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.controlIcons {
+  margin: 0 10px;
+}
+
+.controlSoundIcons {
+  margin: 0 15px;
+}
+
+.controls_wrapper>span {
+  cursor: pointer;
+}
+
+.controlSoundIcons {
+  cursor: pointer;
+}
+
+#currentSong {
+  overflow: hidden;
+}
+
+#songList {
+  overflow: hidden;
+  text-align: left;
+}
+
+li {
+  cursor: pointer;
+  padding: 20px 0;
+}
+
+li:hover {
+  background: #3B3546;
+}
+
+progress {
+  width: 50%;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 800px) {
+  body {
+    max-width: 60vw;
+  }
+}
